@@ -8,5 +8,5 @@ We achieve an accuracy of 98% and an F1-score for non-legendary Pokémon of 0.99
 
 ## Challenges
 The difficulty with this dataset is that it is heavily imbalanced: ~90% non-legendary Pokémon and ~10% legendary Pokémon.
-By implementing the regularization techniques **data standardization**, **batch normalization**, and **dropout** we can combat this imbalance
-and achieve the results mentioned above!
+By implementing the regularization techniques **data standardization**, **stratification on train-test split**,
+**batch normalization**, and **dropout** we can combat this imbalance and achieve the results mentioned above!
